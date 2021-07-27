@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 export class ApiService {
 
   readonly PORT = 3000;
-  private baseURL = `http://localhost:${this.PORT}`;
+  private baseURL = `https://loginserver.azurewebsites.net`;
 
   constructor(private http: HttpClient, private router: Router) { }
 
